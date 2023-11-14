@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para botones */
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos específicos para la página de inicio de sesión */
+body.login {
+    background-image: url('fondo_login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container.login {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo.login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo.login img {
+    max-width: 100px; /* Tamaño ajustable según tus preferencias */
+    height: auto;
+}
